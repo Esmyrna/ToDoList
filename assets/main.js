@@ -1,3 +1,13 @@
+Parse.serverURL = 'https://parseapi.back4app.com'; // This is your Server URL
+// Remember to inform BOTH the Back4App Application ID AND the JavaScript KEY
+Parse.initialize(
+  'BCrUQVkk80pCdeImSXoKXL5ZCtyyEZwbN7mAb11f', // This is your Application ID
+  '4wPYRKbpTJeCdmFNaS31AiQZ8344aaYubk6Uo8VW', // This is your Javascript key
+  '5AVAtvlGlG5cEeolatkFDhY5p99PzoBUvm7MBLMo' // This is your Master key (never use it in the frontend)
+);
+
+
+
 // Seletores
 const todoInput = document.querySelector(".todo-input");
 const todoButton = document.querySelector(".todo-button");
